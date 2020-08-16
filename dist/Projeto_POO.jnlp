@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Projeto_POO.jnlp">
+  <information>
+    <title>Projeto_POO</title>
+    <vendor>Miguel HPC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Projeto_POO.jar" size="74013" download="eager" />
+    <jar href="lib\derby.jar" size="3232770" download="eager" />
+    <jar href="lib\derbyclient.jar" size="588394" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Projeto_POO" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projeto_poo.Main"  name="Projeto_POO" />
+  <update check="always"/>
+</jnlp>
