@@ -1,6 +1,6 @@
 # Aluguer-Imoveis
 School project that is suppose to be an interface to rent houses, like an air-bnb. There's interfaces for administrators and for clients. The administrator can add as many houses as he wants and can see his financial report whenever he wishes to. The client could select in the calendar the days it wants to rent the chosen house. Days that are occupied will show up as blocked to avoid overlapping. 
-#Technologies
+# Technologies
 - Java SE Development Kit 8u261
 - DerbyDB
 - SceneBuilder
